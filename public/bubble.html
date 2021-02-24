@@ -1,0 +1,15 @@
+
+<script>
+    (function(d,t) {
+        var BASE_URL="https://chatwoot-quick-demo.herokuapp.com";
+        var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+        g.src=BASE_URL+"/packs/js/sdk.js";
+        s.parentNode.insertBefore(g,s);
+        g.onload=function(){
+            window.chatwootSDK.run({
+                websiteToken: '9HsFUiauKAsFUdKSzV2b6yo4',
+                baseUrl: BASE_URL
+            })
+        }
+    })(document,"script");
+</script>

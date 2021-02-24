@@ -3,9 +3,9 @@
 - name: INSTALLATION_NAME
   value: 'Yalo'
 - name: LOGO_THUMBNAIL
-  value: '/brand-assets/logo_thumbnail_yalo.png'
+  value: '/brand-assets/logo_thumbnail.svg'
 - name: LOGO
-  value: '/brand-assets/logo_yalo.png'
+  value: '/brand-assets/logo.svg'
 - name: BRAND_URL
   value: 'https://www.chatwoot.com'
 - name: WIDGET_BRAND_URL
